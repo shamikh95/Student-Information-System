@@ -1,0 +1,160 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Student_Information_System.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Student Information System</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all"/>
+<link  href ="layout/styles/StyleSheet.css" rel="Stylesheet"  type ="text/css" media ="all"/>
+<link href="JScript.js" type="text/jscript" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="top">
+<!-- ################################################################################################ -->  &nbsp;<!-- ################################################################################################ --><!-- ################################################################################################ --><div class="wrapper row0">
+  <div id="topbar" class="clear"> 
+    <!-- ################################################################################################ -->
+    <nav>
+      <ul>
+        <li></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li id="lilogin1" runat="server"><a href="#" >Student Login</a></li>
+        <li><a href="#">Staff Login</a></li>
+      </ul>
+    </nav>
+    <!-- ################################################################################################ --> 
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+    <h2>Aligarh Muslim University</h2>
+      <h1><a href="Default.aspx">Student Information System</a></h1>
+    </div>
+    <div class="fl_right">
+      <form class="clear" method="post" action="#">
+        <fieldset>
+          <div id="liname" runat="server" 
+                style="font-style: oblique; font-weight: 700; font-size: x-large; color: #FFFFFF;"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></div>
+        
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ --> 
+  </header>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <div class="rounded">
+    <nav id="mainav" class="clear"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+      
+        <li><a href="Default.aspx">Home</a></li>
+        <li><a class="drop" href="#">Course Registration</a>
+        <ul>
+        <li><a href="CourseMap.aspx">Course Map</a></li>
+        <li><a href="CourseStructure.aspx">Course Structure</a></li>
+        <li><a href="CourseRegistration.aspx">Course Registration</a></li>
+            
+            <li><a href="Schedule.aspx">Schedule</a></li>
+            <li><a href="RegisteredCourses.aspx">Registered Courses</a></li>
+            
+        </ul>
+        </li>
+        <li><a class="drop" href="#">Academics</a>
+          <ul>
+            <li><a class="drop" href="#">Assignments</a>
+              <ul>
+                <li><a href="#">View</a></li>
+                <li><a href="#">Submit</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Ask Questions</a></li>
+            <li><a href="#">View Time-Table</a></li>
+            <li><a href="#">View Attendence</a></li>
+          </ul>
+        </li>
+        <li><a class="drop" href="#">Results</a>
+            <ul>
+                <li><a href="#">Sessional Marks</a></li>
+                <li><a href="#">Mid-Sem Marks</a></li>
+                <li><a href="#">Final Result</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#" class ="drop">Feedback</a>
+        <ul>
+            <li><a href="">View Feedback</a>
+            <ul>
+                <li><a href="#">Subject's Feedback</a></li>
+                <li><a href="#">Teacher's Feedback</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Subject Wise Feedback</a></li>
+            <li><a href="#">Teacher Wise Feedback</a></li>
+
+          </ul>
+          </li>
+          <li id="lilogin" runat="server"><a href="#" >Student Login</a></li>
+        <li id="lilogout" runat="server"><a href="#">Log Out</a></li>
+      </ul>
+      <!-- ################################################################################################ --> 
+    </nav>
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper">
+  <div id="slider">
+    <div id="slide-wrapper" class="rounded clear"> 
+      <!-- ################################################################################################ -->
+      <figure id="slide-1"><a class="view" href="#"><asp:Image ID="Image1" runat="server" ImageUrl ="images/1bg.jpg" Height ="300px" Width ="100%"></asp:Image></a>
+      </figure>
+      
+      <!-- ################################################################################################ -->
+      <!-- ################################################################################################ --> 
+    </div>
+  </div>
+</div>
+<div class="wrapper row3">
+  <div class="rounded">
+    <main> 
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+      <div class="clear"></div>
+    </main>
+  </div>
+</div>
+    
+
+<div class="wrapper row5">
+  <div id="Div1" class="clear"> 
+   Designed by Syed Shamikh Iqbal
+  </div>
+</div>
+<!-- JAVASCRIPTS --> 
+<script type="text/javascript"  src="layout/scripts/jquery.min.js"></script> 
+<script type="text/javascript" src="layout/scripts/jquery.fitvids.min.js"></script> 
+<script type="text/javascript" src="layout/scripts/jquery.mobilemenu.js"></script> 
+<script type="text/javascript" src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
+</body>
+
+</html>

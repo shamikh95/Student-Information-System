@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{621278D9-D611-4A1B-9D24-82A12F49ADD3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Student_Information_System</RootNamespace>
+    <AssemblyName>Student Information System</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="30-css-hover-effects-for-buttons\cache\index.html" />
+    <Content Include="30-css-hover-effects-for-buttons\cache\timthumb_ext_28ec1bdd10d89afdd8d2d105de891e7d.timthumb.txt" />
+    <Content Include="30-css-hover-effects-for-buttons\cache\timthumb_ext_29861fe2ab9cea641b0bb7dce9b4c7a3.timthumb.txt" />
+    <Content Include="30-css-hover-effects-for-buttons\cache\timthumb_ext_413c5b64a1f5b5d66cce39585994c42a.timthumb.txt" />
+    <Content Include="30-css-hover-effects-for-buttons\cache\timthumb_ext_b2c4f7bd6ff33122b452255dc9413968.timthumb.txt" />
+    <Content Include="30-css-hover-effects-for-buttons\cache\timthumb_ext_d6115b187eb8b1c98a2b01f32005f0f4.timthumb.txt" />
+    <Content Include="30-css-hover-effects-for-buttons\cache\timthumb_ext_fe0e82c14276ef74ebf0ea2c9e26c19d.timthumb.txt" />
+    <Content Include="30-css-hover-effects-for-buttons\index.html" />
+    <Content Include="30-css-hover-effects-for-buttons\_css\Icomoon\demo-files\demo.css" />
+    <Content Include="30-css-hover-effects-for-buttons\_css\Icomoon\demo-files\demo.js" />
+    <Content Include="30-css-hover-effects-for-buttons\_css\Icomoon\demo.html" />
+    <Content Include="30-css-hover-effects-for-buttons\_css\Icomoon\style.css" />
+    <Content Include="30-css-hover-effects-for-buttons\_css\main.css" />
+    <Content Include="30-css-hover-effects-for-buttons\_scripts\jquery-2.1.4.min.js" />
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="CourseMap.aspx" />
+    <Content Include="Course Map\Course Map.xml" />
+    <Content Include="Course Map\FlowChart.jpg" />
+    <Content Include="Course Map\Untitled Diagram %281%29.xml" />
+    <Content Include="Course Map\Untitled Diagram.html" />
+    <Content Include="Course Map\Untitled Diagram.xml" />
+    <Content Include="CourseStructure.aspx" />
+    <Content Include="images\1200px-Alumni_Hall_1889_Sun.jpg" />
+    <Content Include="images\1bg.jpg" />
+    <Content Include="images\2bg.jpg" />
+    <Content Include="images\3bg.jpg" />
+    <Content Include="images\4bg.jpg" />
+    <Content Include="images\5bg.jpg" />
+    <Content Include="CourseRegistration.aspx" />
+    <Content Include="images\CourseMapFlowChart.jpg" />
+    <Content Include="images\CrossBlue.png" />
+    <Content Include="images\demo\120x120.gif" />
+    <Content Include="images\demo\220x95.gif" />
+    <Content Include="images\demo\80x80.gif" />
+    <Content Include="images\demo\avatar.png" />
+    <Content Include="images\demo\gallery\1.png" />
+    <Content Include="images\demo\gallery\index.html" />
+    <Content Include="images\demo\index.html" />
+    <Content Include="images\demo\portfolio\1.png" />
+    <Content Include="images\demo\portfolio\index.html" />
+    <Content Include="images\demo\slider\1.png" />
+    <Content Include="images\demo\slider\2.png" />
+    <Content Include="images\demo\slider\3.png" />
+    <Content Include="images\demo\slider\4.png" />
+    <Content Include="images\demo\slider\5.png" />
+    <Content Include="images\demo\slider\index.html" />
+    <Content Include="images\demo\video.gif" />
+    <Content Include="images\demo\worldmap.png" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\images.png" />
+    <Content Include="images\index.html" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\TickBlack.png" />
+    <Content Include="JScript.js" />
+    <Content Include="layout\index.html" />
+    <Content Include="layout\scripts\index.html" />
+    <Content Include="layout\scripts\jquery.fitvids.min.js" />
+    <Content Include="layout\scripts\jquery.min.js" />
+    <Content Include="layout\scripts\jquery.mobilemenu.js" />
+    <Content Include="layout\scripts\nivo-lightbox\images\close%402x.png" />
+    <Content Include="layout\scripts\nivo-lightbox\images\close.png" />
+    <Content Include="layout\scripts\nivo-lightbox\images\index.html" />
+    <Content Include="layout\scripts\nivo-lightbox\images\loading%402x.gif" />
+    <Content Include="layout\scripts\nivo-lightbox\images\loading.gif" />
+    <Content Include="layout\scripts\nivo-lightbox\images\next%402x.png" />
+    <Content Include="layout\scripts\nivo-lightbox\images\next.png" />
+    <Content Include="layout\scripts\nivo-lightbox\images\prev%402x.png" />
+    <Content Include="layout\scripts\nivo-lightbox\images\prev.png" />
+    <Content Include="layout\scripts\nivo-lightbox\index.html" />
+    <Content Include="layout\scripts\nivo-lightbox\nivo-lightbox.min.css" />
+    <Content Include="layout\scripts\nivo-lightbox\nivo-lightbox.min.js" />
+    <Content Include="layout\scripts\tabslet\index.html" />
+    <Content Include="layout\scripts\tabslet\jquery.tabslet.min.js" />
+    <Content Include="layout\styles\fontawesome-4.2.0.min.css" />
+    <Content Include="layout\styles\fonts\index.html" />
+    <Content Include="layout\styles\framework.css" />
+    <Content Include="layout\styles\index.html" />
+    <Content Include="layout\styles\layout.css" />
+    <Content Include="layout\styles\StyleSheet.css" />
+    <Content Include="pages\basic-grid.html" />
+    <Content Include="pages\full-width.html" />
+    <Content Include="pages\gallery.html" />
+    <Content Include="pages\index.html" />
+    <Content Include="pages\portfolio.html" />
+    <Content Include="pages\sidebar-left-2.html" />
+    <Content Include="pages\sidebar-left.html" />
+    <Content Include="pages\sidebar-right-2.html" />
+    <Content Include="pages\sidebar-right.html" />
+    <Content Include="RegisteredCourses.aspx" />
+    <Content Include="Schedule.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CourseMap.aspx.cs">
+      <DependentUpon>CourseMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CourseMap.aspx.designer.cs">
+      <DependentUpon>CourseMap.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\Service.cs" />
+    <Compile Include="CourseStructure.aspx.cs">
+      <DependentUpon>CourseStructure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CourseStructure.aspx.designer.cs">
+      <DependentUpon>CourseStructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="CourseRegistration.aspx.cs">
+      <DependentUpon>CourseRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CourseRegistration.aspx.designer.cs">
+      <DependentUpon>CourseRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisteredCourses.aspx.cs">
+      <DependentUpon>RegisteredCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisteredCourses.aspx.designer.cs">
+      <DependentUpon>RegisteredCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.aspx.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schedule.aspx.designer.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="30-css-hover-effects-for-buttons\_assets\" />
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="30-css-hover-effects-for-buttons\cache\timthumb_cacheLastCleanTime.touch" />
+    <None Include="30-css-hover-effects-for-buttons\_css\Icomoon\fonts\icomoon.eot" />
+    <None Include="30-css-hover-effects-for-buttons\_css\Icomoon\fonts\icomoon.svg" />
+    <None Include="30-css-hover-effects-for-buttons\_css\Icomoon\fonts\icomoon.ttf" />
+    <None Include="30-css-hover-effects-for-buttons\_css\Icomoon\fonts\icomoon.woff" />
+    <Content Include="layout\scripts\nivo-lightbox\Nivo-Lightbox-master.zip" />
+    <Content Include="layout\scripts\tabslet\Tabslet-master.zip" />
+    <None Include="layout\styles\fonts\fontawesome-webfont.eot" />
+    <None Include="layout\styles\fonts\fontawesome-webfont.svg" />
+    <None Include="layout\styles\fonts\fontawesome-webfont.ttf" />
+    <None Include="layout\styles\fonts\fontawesome-webfont.woff" />
+    <None Include="layout\styles\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7988</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

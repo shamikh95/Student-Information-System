@@ -1,0 +1,10 @@
+c:\users\encoder\documents\visual studio 2010\Projects\Student Information System\Student Information System\bin\Student Information System.dll
+c:\users\encoder\documents\visual studio 2010\Projects\Student Information System\Student Information System\bin\Student Information System.pdb
+c:\users\encoder\documents\visual studio 2010\Projects\Student Information System\Student Information System\obj\Debug\ResolveAssemblyReference.cache
+c:\users\encoder\documents\visual studio 2010\Projects\Student Information System\Student Information System\obj\Debug\Student Information System.dll
+c:\users\encoder\documents\visual studio 2010\Projects\Student Information System\Student Information System\obj\Debug\Student Information System.pdb
+C:\Users\Shamikh\Desktop\Student Information System\Student Information System\bin\Student Information System.dll
+C:\Users\Shamikh\Desktop\Student Information System\Student Information System\bin\Student Information System.pdb
+C:\Users\Shamikh\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.dll
+C:\Users\Shamikh\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.pdb
+C:\Users\Shamikh\Desktop\Student Information System\Student Information System\obj\Debug\Student Information System.csprojResolveAssemblyReference.cache
